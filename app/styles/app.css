@@ -11,3 +11,13 @@ ul {
 /*.nav {
   text-align: center;
 }*/
+
+html, body, h1 {
+  font-family: 'Handlee', cursive;
+}
+
+button, p {
+	/*font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;*/
+  font-family: 'Segoe UI', Optima, Arial, sans-serif;
+
+}

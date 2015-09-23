@@ -1,7 +1,8 @@
 <li>{{#link-to 'post' post.id}}{{post.title}} by {{post.author}} ({{post.category}}){{/link-to}}
   <!-- <img src={{post.image}}> -->
-
+  <br>
   {{update-post post=post update="update"}}
   <button class="btn btn-primary btn-sm" {{action 'delete' post}}>Delete</button>
-
+  <br>
+  <br>
 </li>
