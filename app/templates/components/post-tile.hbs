@@ -1,4 +1,4 @@
-<li>{{post.title}} by {{post.author}} ({{post.category}})
+<li>{{#link-to 'post' post.id}}{{post.title}} by {{post.author}} ({{post.category}}){{/link-to}}
   <img src={{post.image}}>
 
   {{update-post post=post update="update"}}
