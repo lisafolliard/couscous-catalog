@@ -1,5 +1,6 @@
 <li>{{post.title}} by {{post.author}} ({{post.category}})
 
+  {{update-post post=post update="update"}}
   <button {{action 'delete' post}}>Delete</button>
 
 </li>

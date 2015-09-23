@@ -8,7 +8,7 @@ You have come to the right place for all your couscous needs.
 <ul>
   {{#each model as |post-unit|}}
     <!-- <li>{{post.title}} by {{post.author}} ({{post.category}})<img src={{post.image}}></li><br> -->
-    {{post-tile post=post-unit destroyPost="destroyPost"}}
+    {{post-tile post=post-unit update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
 
