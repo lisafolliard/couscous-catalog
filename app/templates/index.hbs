@@ -1,1 +1,12 @@
 <h1>Welcome!</h1>
+
+<br>
+You have come to the right place for all your couscous needs.
+<br>
+<br>
+
+<ul>
+  {{#each model as |post|}}
+    <li>{{post.title}} by {{post.author}} ({{post.category}})<img src={{post.image}}></li>
+  {{/each}}
+</ul>
